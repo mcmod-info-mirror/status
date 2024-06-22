@@ -11,3 +11,6 @@ sites:
 
 workflowSchedule:
   uptime: "0 0 * * *"
+
+status-website:
+  baseUrl: /status
