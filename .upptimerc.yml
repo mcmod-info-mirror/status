@@ -11,7 +11,3 @@ sites:
 
 workflowSchedule:
   uptime: "0 0 * * *"
-
-skipDescriptionUpdate: true
-skipTopicsUpdate: true
-skipHomepageUpdate: true
