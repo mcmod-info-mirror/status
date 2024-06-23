@@ -32,6 +32,12 @@ sites:
       - 200
     assignees:
       - z0z0r4
+  - name: "Modrinth Search"
+    url: https://mcim.z0z0r4.top/v1/modrinth/search?offset=0&limit=10&index=relevance
+    expectedStatusCodes:
+      - 200
+    assignees:
+      - z0z0r4
   - name: "Modrinth Project"
     url: https://mcim.z0z0r4.top/v1/modrinth/project/sodium-extra
     expectedStatusCodes:
