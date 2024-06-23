@@ -4,19 +4,19 @@
     "url": "https://mcim.z0z0r4.top",
     "icon": "https://icons.duckduckgo.com/ip3/mcim.z0z0r4.top.ico",
     "slug": "root",
-    "status": "down",
-    "uptime": "96.99%",
-    "uptimeDay": "96.99%",
-    "uptimeWeek": "96.99%",
-    "uptimeMonth": "96.99%",
-    "uptimeYear": "96.99%",
-    "time": 1319,
-    "timeDay": 1319,
-    "timeWeek": 1319,
-    "timeMonth": 1319,
-    "timeYear": 1319,
+    "status": "up",
+    "uptime": "15.03%",
+    "uptimeDay": "15.03%",
+    "uptimeWeek": "15.03%",
+    "uptimeMonth": "15.03%",
+    "uptimeYear": "15.03%",
+    "time": 1248,
+    "timeDay": 1248,
+    "timeWeek": 1248,
+    "timeMonth": 1248,
+    "timeYear": 1248,
     "dailyMinutesDown": {
-      "2024-06-23": 0
+      "2024-06-23": 58
     }
   },
   {
