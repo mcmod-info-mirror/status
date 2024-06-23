@@ -41,17 +41,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/mcim.z0z0r4.top.ico",
     "slug": "curseforge-search",
     "status": "down",
-    "uptime": "13.36%",
-    "uptimeDay": "13.36%",
-    "uptimeWeek": "13.36%",
-    "uptimeMonth": "13.36%",
-    "uptimeYear": "13.36%",
+    "uptime": "10.13%",
+    "uptimeDay": "10.13%",
+    "uptimeWeek": "10.13%",
+    "uptimeMonth": "10.13%",
+    "uptimeYear": "10.13%",
     "time": 550,
     "timeDay": 550,
     "timeWeek": 550,
     "timeMonth": 550,
     "timeYear": 550,
     "dailyMinutesDown": {
+      "2024-06-23": 0,
       "2024-06-22": 0
     }
   },
