@@ -54,7 +54,7 @@ sites:
 
 
 workflowSchedule:
-  uptime: "0 0 * * *"
+  uptime: "*/5 * * * *"
 
 user-agent: mcmod-info-mirror/status
 
