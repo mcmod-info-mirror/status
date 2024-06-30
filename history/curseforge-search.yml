@@ -1,7 +1,7 @@
 url: https://mcim.z0z0r4.top/v1/curseforge/mods/search?gameId=432&pageSize=50
-status: up
-code: 200
-responseTime: 1904
-lastUpdated: 2024-06-29T23:13:17.834Z
+status: down
+code: 502
+responseTime: 155
+lastUpdated: 2024-06-30T05:36:03.860Z
 startTime: 2024-06-22T23:59:46.384Z
 generator: Upptime <https://github.com/upptime/upptime>
