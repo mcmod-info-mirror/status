@@ -5,11 +5,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/mcim.z0z0r4.top.ico",
     "slug": "root",
     "status": "up",
-    "uptime": "99.43%",
+    "uptime": "99.44%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.43%",
-    "uptimeYear": "99.43%",
+    "uptimeMonth": "99.44%",
+    "uptimeYear": "99.44%",
     "time": 1419,
     "timeDay": 1347,
     "timeWeek": 1483,
@@ -60,9 +60,9 @@
     "url": "https://mcim.z0z0r4.top/v1/curseforge/mods/238222",
     "icon": "https://icons.duckduckgo.com/ip3/mcim.z0z0r4.top.ico",
     "slug": "curseforge-mod",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -71,78 +71,88 @@
     "timeWeek": 198,
     "timeMonth": 233,
     "timeYear": 233,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-06-30": 0
+    }
   },
   {
     "name": "Curseforge Files",
     "url": "https://mcim.z0z0r4.top/v1/curseforge/mods/238222/files",
     "icon": "https://icons.duckduckgo.com/ip3/mcim.z0z0r4.top.ico",
     "slug": "curseforge-files",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1669,
-    "timeDay": 1322,
-    "timeWeek": 1677,
-    "timeMonth": 1669,
-    "timeYear": 1669,
-    "dailyMinutesDown": {}
+    "time": 1536,
+    "timeDay": 764,
+    "timeWeek": 1513,
+    "timeMonth": 1536,
+    "timeYear": 1536,
+    "dailyMinutesDown": {
+      "2024-06-30": 0
+    }
   },
   {
     "name": "Modrinth Search",
     "url": "https://mcim.z0z0r4.top/v1/modrinth/search?offset=0&limit=10&index=relevance",
     "icon": "https://icons.duckduckgo.com/ip3/mcim.z0z0r4.top.ico",
     "slug": "modrinth-search",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 530,
-    "timeDay": 480,
-    "timeWeek": 532,
-    "timeMonth": 530,
-    "timeYear": 530,
-    "dailyMinutesDown": {}
+    "time": 497,
+    "timeDay": 343,
+    "timeWeek": 496,
+    "timeMonth": 497,
+    "timeYear": 497,
+    "dailyMinutesDown": {
+      "2024-06-30": 0
+    }
   },
   {
     "name": "Modrinth Project",
     "url": "https://mcim.z0z0r4.top/v1/modrinth/project/sodium-extra",
     "icon": "https://icons.duckduckgo.com/ip3/mcim.z0z0r4.top.ico",
     "slug": "modrinth-project",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 184,
-    "timeDay": 158,
-    "timeWeek": 185,
-    "timeMonth": 184,
-    "timeYear": 184,
-    "dailyMinutesDown": {}
+    "time": 186,
+    "timeDay": 182,
+    "timeWeek": 188,
+    "timeMonth": 186,
+    "timeYear": 186,
+    "dailyMinutesDown": {
+      "2024-06-30": 0
+    }
   },
   {
     "name": "Modrinth Versions",
     "url": "https://mcim.z0z0r4.top/v1/modrinth/project/sodium-extra/version",
     "icon": "https://icons.duckduckgo.com/ip3/mcim.z0z0r4.top.ico",
     "slug": "modrinth-versions",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 2181,
-    "timeDay": 913,
-    "timeWeek": 2427,
-    "timeMonth": 2181,
-    "timeYear": 2181,
-    "dailyMinutesDown": {}
+    "time": 2001,
+    "timeDay": 560,
+    "timeWeek": 2180,
+    "timeMonth": 2001,
+    "timeYear": 2001,
+    "dailyMinutesDown": {
+      "2024-06-30": 0
+    }
   }
 ]
