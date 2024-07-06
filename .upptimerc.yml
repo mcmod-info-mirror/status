@@ -62,3 +62,4 @@ status-website:
   baseUrl: /status
   name: MCIM Uptime
   theme: light
+  cname: status.mcimirror.top
