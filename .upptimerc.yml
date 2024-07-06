@@ -59,7 +59,6 @@ workflowSchedule:
 user-agent: mcmod-info-mirror/status
 
 status-website:
-  baseUrl: /status
   name: MCIM Uptime
   theme: light
   cname: status.mcimirror.top
