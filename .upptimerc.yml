@@ -3,55 +3,53 @@ repo: status
 
 sites:
   - name: root
-    url: https://mcim.z0z0r4.top
+    url: https://mod.mcimirror.top
     expectedStatusCodes:
       - 200
     assignees:
       - z0z0r4
   - name: docs
-    url: https://mcim.z0z0r4.top/docs
+    url: https://mod.mcimirror.top/docs
     expectedStatusCodes:
       - 200
     assignees:
       - z0z0r4
   - name: "Curseforge Search"
-    url: https://mcim.z0z0r4.top/v1/curseforge/mods/search?gameId=432&pageSize=50
+    url: https://mod.mcimirror.top/v1/curseforge/mods/search?gameId=432&pageSize=50
     expectedStatusCodes:
       - 200
     assignees:
       - z0z0r4
   - name: "Curseforge Mod"
-    url: https://mcim.z0z0r4.top/v1/curseforge/mods/238222
+    url: https://mod.mcimirror.top/v1/curseforge/mods/238222
     expectedStatusCodes:
       - 200
     assignees:
       - z0z0r4
   - name: "Curseforge Files"
-    url: https://mcim.z0z0r4.top/v1/curseforge/mods/238222/files
+    url: https://mod.mcimirror.top/v1/curseforge/mods/238222/files
     expectedStatusCodes:
       - 200
     assignees:
       - z0z0r4
   - name: "Modrinth Search"
-    url: https://mcim.z0z0r4.top/v1/modrinth/search?offset=0&limit=10&index=relevance
+    url: https://mod.mcimirror.top/v1/modrinth/search?offset=0&limit=10&index=relevance
     expectedStatusCodes:
       - 200
     assignees:
       - z0z0r4
   - name: "Modrinth Project"
-    url: https://mcim.z0z0r4.top/v1/modrinth/project/sodium-extra
+    url: https://mod.mcimirror.top/v1/modrinth/project/sodium-extra
     expectedStatusCodes:
       - 200
     assignees:
       - z0z0r4
   - name: "Modrinth Versions"
-    url: https://mcim.z0z0r4.top/v1/modrinth/project/sodium-extra/version
+    url: https://mod.mcimirror.top/v1/modrinth/project/sodium-extra/version
     expectedStatusCodes:
       - 200
     assignees:
       - z0z0r4
-
-
 
 workflowSchedule:
   uptime: "*/5 * * * *"
