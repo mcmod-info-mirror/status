@@ -26,8 +26,22 @@ sites:
       - 200
     assignees:
       - z0z0r4
+  - name: "Curseforge Singel File"
+    url: https://mod.mcimirror.top/v1/curseforge/mods/256717/files/2666198
+    expectedStatusCodes:
+      - 200
+    assignees:
+      - z0z0r4
   - name: "Curseforge Files"
     url: https://mod.mcimirror.top/v1/curseforge/mods/238222/files
+    expectedStatusCodes:
+      - 200
+    assignees:
+      - z0z0r4
+    - name: "Curseforge Fingerprints"
+    url: https://mod.mcimirror.top/v1/curseforge/fingerprints
+    method: POST
+    body: '{"fingerprints": [1290884162]}'
     expectedStatusCodes:
       - 200
     assignees:
