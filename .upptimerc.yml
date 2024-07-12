@@ -38,7 +38,7 @@ sites:
       - 200
     assignees:
       - z0z0r4
-    - name: "Curseforge Fingerprints"
+  - name: "Curseforge Fingerprints"
     url: https://mod.mcimirror.top/v1/curseforge/fingerprints
     method: POST
     headers:
