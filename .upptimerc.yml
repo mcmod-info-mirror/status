@@ -50,6 +50,18 @@ sites:
       - 200
     assignees:
       - z0z0r4
+  - name: "Modrinth Single Version"
+    url: https://mod.mcimirror.top/v1/modrinth/version/3JJvf9Kn
+    expectedStatusCodes:
+      - 200
+    assignees:
+      - z0z0r4
+  - name: "Modrinth hash"
+    url: https://mod.mcimirror.top/v1/modrinth/version_file/acac3670ee25cc10ed63136e5dd3b792acd13595
+    expectedStatusCodes:
+      - 200
+    assignees:
+      - z0z0r4
 
 workflowSchedule:
   uptime: "*/5 * * * *"
