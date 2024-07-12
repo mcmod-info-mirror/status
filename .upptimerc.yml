@@ -41,6 +41,8 @@ sites:
     - name: "Curseforge Fingerprints"
     url: https://mod.mcimirror.top/v1/curseforge/fingerprints
     method: POST
+    headers:
+      - "Content-Type: application/json"
     body: '{"fingerprints": [1290884162]}'
     expectedStatusCodes:
       - 200
