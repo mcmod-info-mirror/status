@@ -26,7 +26,7 @@ sites:
       - 200
     assignees:
       - z0z0r4
-  - name: "Curseforge Singel File"
+  - name: "Curseforge Single File"
     url: https://mod.mcimirror.top/v1/curseforge/mods/256717/files/2666198
     expectedStatusCodes:
       - 200
