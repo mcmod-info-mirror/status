@@ -78,7 +78,18 @@ sites:
       - 200
     assignees:
       - z0z0r4
-
+  - name: "Modrinth Single File Update"
+    url: https://mod.mcimirror.top/v1/modrinth/version_file/3257d1fe02c9f7710feec955d4e91bd1de69bbe930a3779602ea7c78920ca1f9cef3c4450158cabaddc330d2d4a96a2558d8f136c770b2657886797f2452eb24/update?algorithm=sha512
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"loaders": ["fabric"], "game_versions": ["1.20.1"]}'
+  - name: "Modrinth Files Update"
+    url: https://mod.mcimirror.top/v1/modrinth/version_files/update
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"hashes": ["50ef600fe32e16732482a913160c09fe4d2c925c", "109cc66669151097838c389b8338c505787d95af"], "algorithm": "sha1", "loaders": ["fabric"], "game_versions": ["1.20.3"]}'
   - name: "Modrinth file cdn"
     url: https://mod.mcimirror.top/data/P7dR8mSH/versions/Y0cpssyN/fabric-api-0.100.6%2B1.21.jar
     expectedStatusCodes:
