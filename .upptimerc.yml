@@ -15,31 +15,31 @@ sites:
     assignees:
       - z0z0r4
   - name: "Curseforge Search"
-    url: https://mod.mcimirror.top/curseforge/mods/search?gameId=432&pageSize=50
+    url: https://mod.mcimirror.top/curseforge/v1/mods/search?gameId=432&pageSize=50
     expectedStatusCodes:
       - 200
     assignees:
       - z0z0r4
   - name: "Curseforge Mod"
-    url: https://mod.mcimirror.top/curseforge/mods/238222
+    url: https://mod.mcimirror.top/curseforge/v1/mods/238222
     expectedStatusCodes:
       - 200
     assignees:
       - z0z0r4
   - name: "Curseforge Single File"
-    url: https://mod.mcimirror.top/curseforge/mods/256717/files/2666198
+    url: https://mod.mcimirror.top/curseforge/v1/mods/256717/files/2666198
     expectedStatusCodes:
       - 200
     assignees:
       - z0z0r4
   - name: "Curseforge Files"
-    url: https://mod.mcimirror.top/curseforge/mods/238222/files
+    url: https://mod.mcimirror.top/curseforge/v1/mods/238222/files
     expectedStatusCodes:
       - 200
     assignees:
       - z0z0r4
   - name: "Curseforge Fingerprints"
-    url: https://mod.mcimirror.top/curseforge/fingerprints
+    url: https://mod.mcimirror.top/curseforge/v1/fingerprints
     method: POST
     headers:
       - "Content-Type: application/json"
@@ -49,43 +49,43 @@ sites:
     assignees:
       - z0z0r4
   - name: "Modrinth Search"
-    url: https://mod.mcimirror.top/modrinth/search?offset=0&limit=10&index=relevance
+    url: https://mod.mcimirror.top/modrinth/v2/search?offset=0&limit=10&index=relevance
     expectedStatusCodes:
       - 200
     assignees:
       - z0z0r4
   - name: "Modrinth Project"
-    url: https://mod.mcimirror.top/modrinth/project/sodium-extra
+    url: https://mod.mcimirror.top/modrinth/v2/project/sodium-extra
     expectedStatusCodes:
       - 200
     assignees:
       - z0z0r4
   - name: "Modrinth Versions"
-    url: https://mod.mcimirror.top/modrinth/project/sodium-extra/version
+    url: https://mod.mcimirror.top/modrinth/v2/project/sodium-extra/version
     expectedStatusCodes:
       - 200
     assignees:
       - z0z0r4
   - name: "Modrinth Single Version"
-    url: https://mod.mcimirror.top/modrinth/version/3JJvf9Kn
+    url: https://mod.mcimirror.top/modrinth/v2/version/3JJvf9Kn
     expectedStatusCodes:
       - 200
     assignees:
       - z0z0r4
   - name: "Modrinth hash"
-    url: https://mod.mcimirror.top/modrinth/version_file/acac3670ee25cc10ed63136e5dd3b792acd13595
+    url: https://mod.mcimirror.top/modrinth/v2/version_file/acac3670ee25cc10ed63136e5dd3b792acd13595
     expectedStatusCodes:
       - 200
     assignees:
       - z0z0r4
   - name: "Modrinth Single File Update"
-    url: https://mod.mcimirror.top/modrinth/version_file/3257d1fe02c9f7710feec955d4e91bd1de69bbe930a3779602ea7c78920ca1f9cef3c4450158cabaddc330d2d4a96a2558d8f136c770b2657886797f2452eb24/update?algorithm=sha512
+    url: https://mod.mcimirror.top/modrinth/v2/version_file/3257d1fe02c9f7710feec955d4e91bd1de69bbe930a3779602ea7c78920ca1f9cef3c4450158cabaddc330d2d4a96a2558d8f136c770b2657886797f2452eb24/update?algorithm=sha512
     method: POST
     headers:
       - "Content-Type: application/json"
     body: '{"loaders": ["fabric"], "game_versions": ["1.20.1"]}'
   - name: "Modrinth Files Update"
-    url: https://mod.mcimirror.top/modrinth/version_files/update
+    url: https://mod.mcimirror.top/modrinth/v2/version_files/update
     method: POST
     headers:
       - "Content-Type: application/json"
