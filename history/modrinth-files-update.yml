@@ -1,7 +1,7 @@
 url: https://mod.mcimirror.top/modrinth/v2/version_files/update
-status: down
-code: 500
-responseTime: 270
-lastUpdated: 2024-07-21T08:58:50.347Z
+status: up
+code: 200
+responseTime: 446
+lastUpdated: 2024-07-21T12:29:29.157Z
 startTime: 2024-07-15T02:34:16.412Z
 generator: Upptime <https://github.com/upptime/upptime>
