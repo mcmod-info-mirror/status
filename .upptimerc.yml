@@ -48,6 +48,16 @@ sites:
       - 200
     assignees:
       - z0z0r4
+  - name: "Curseforge Fingerprints 432"
+    url: https://mod.mcimirror.top/curseforge/v1/fingerprints/432
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"fingerprints": [1290884162]}'
+    expectedStatusCodes:
+      - 200
+    assignees:
+      - z0z0r4
   - name: "Modrinth Search"
     url: https://mod.mcimirror.top/modrinth/v2/search?offset=0&limit=10&index=relevance
     expectedStatusCodes:
